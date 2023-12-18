@@ -238,10 +238,10 @@ function drawGameOverScreen(){
 function drawMainMenu(){
     context.fillStyle='#303040'
     context.fillRect(0,0, canvas.width, canvas.height)
-    context.fillStyle='red'
+    context.fillStyle='blue'
     context.font = '32px Russo One';
     context.textAlign = "center";
-    context.fillText("Lets Play this game..", canvas.width /2, canvas.height /2)
+    context.fillText("Lets Play this game together..", canvas.width /2, canvas.height /2)
 
     if(window.localStorage.getItem('highscore') !== null){
         context.font = '18px Russo One';
